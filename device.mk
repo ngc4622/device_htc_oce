@@ -105,6 +105,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libaudioroute \
     libvolumelistener \
     tinymix
 
@@ -408,9 +409,8 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge \
-    libhubconnection \
     android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service \
+    android.hardware.sensors@1.0-service
 
 # Tethering
 PRODUCT_PROPERTY_OVERRIDES += \
